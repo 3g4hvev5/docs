@@ -18,7 +18,7 @@ A repository owned by a user account has two permission levels: the *repository 
 
 ### Organization accounts
 <!--react-->
-<CodeBlock>
+<CodeBlock language="javascript">
 {`var i;
 for (i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
