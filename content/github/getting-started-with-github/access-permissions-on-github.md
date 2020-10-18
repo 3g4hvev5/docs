@@ -18,12 +18,12 @@ A repository owned by a user account has two permission levels: the *repository 
 
 ### Organization accounts
 <!--react-->
-<BlueContent>
-    {`var i;
-    for (i = 0; i < cars.length; i++) {
-      text += cars[i] + "<br>";
-    }`}
-</BlueContent>
+<CodeBlock>
+{`var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}`}
+</CodeBlock>
 <!--end-react-->
 
 Organization members can have *owner*{% if currentVersion == "free-pro-team@latest" %}, *billing manager*,{% endif %} or *member* roles. Owners have complete administrative access to your organization{% if currentVersion == "free-pro-team@latest" %}, while billing managers can manage billing settings{% endif %}. Member is the default role for everyone else. You can manage access permissions for multiple members at a time with teams. For more information, see:
@@ -31,8 +31,6 @@ Organization members can have *owner*{% if currentVersion == "free-pro-team@late
 - "[Project board permissions for an organization](/articles/project-board-permissions-for-an-organization)"
 - "[Repository permission levels for an organization](/articles/repository-permission-levels-for-an-organization)"
 - "[About teams](/articles/about-teams)"
-
-<!--react--><BlueContent>More blue content!</BlueContent><!--end-react-->
 
 <!--react--><RedContent>Red content!</RedContent><!--end-react-->
 
